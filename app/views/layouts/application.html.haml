@@ -46,6 +46,7 @@
 
         #logo<
           = link_to "Logo", "/"
+          = link_to "Login with facebook", oauth2_sign_in_path('facebook')
         = render 'flash_messages'
       %hr
       #container

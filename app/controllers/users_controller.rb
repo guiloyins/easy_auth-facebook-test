@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   def create
     user = User.create(user_params)
     session[:identity_id] = user.identities.first.id
-    redirect_to dashboard_path
+    redirect_to root_path
   end
 
   private
