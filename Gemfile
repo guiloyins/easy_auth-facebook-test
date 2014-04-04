@@ -16,6 +16,7 @@ gem 'uglifier',           '>= 1.3.0'
 gem 'rack-canonical-host',  '0.0.8'
 gem 'bourbon',              '3.1.8'
 gem "rails_12factor",       "0.0.2", group: :production
+gem 'easy_auth-facebook'
 # gem 'paperclip',            '3.4.2'
 # gem 'aws-sdk',              '1.11.2'
 # gem 'paranoia',             '1.2.0'
